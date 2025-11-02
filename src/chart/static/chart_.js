@@ -98,6 +98,7 @@ async function createChart(id, type, url) {
                 }]
             },
             options: {
+                
                 plugins: {
                     legend: { display: false },
                     title: {
