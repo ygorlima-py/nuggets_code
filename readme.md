@@ -167,8 +167,8 @@ document.addEventListener('DOMContentLoaded', async () => {
 ```
 
 
-![Exemplo de gráfico](assets\images\chart1.png)
+![Exemplo de gráfico](assets/images/chart1.png)
 
 
-![Exemplo de gráfico](assets\images\chart2.png)
+![Exemplo de gráfico](assets/images/chart2.png)
 
