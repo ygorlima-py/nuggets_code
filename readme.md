@@ -21,7 +21,7 @@ by each chart type will be presented.
 }
 ``` 
 
-### 1.2 Bar Chart
+### 1.2 Bar Chart / Pie Chart / Doughnut Chart
 ```
 {
     "xValues": ["Italy", "France", "Spain", "USA", "Argentina"],
@@ -90,13 +90,6 @@ by each chart type will be presented.
 ]
 }
 ``` 
-### 1.4 Line Chart
-```
-{
-    "xValues": [50,60,70,80,90,100,110,120,130,140,150, 127, 112, 193, 204, 215, 198, 759],
-    "yValues": [7,8,8,9,9,9,10,11,14,14,15, 12, 17, 19, 45, 22, 21, 9]
-}
-```
 
 ## 2 createChart
 The createChart function, as mentioned earlier, receives the previously described arguments: the ID of the chart’s canvas element, the chart type, and the API URL. It then calls the fetchChartData() function to retrieve the data and gets the canvas context, which acts like the “sheet of paper” on which the chart will be drawn.
