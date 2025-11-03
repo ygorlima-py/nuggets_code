@@ -1,6 +1,5 @@
 
-
-// Aqui realizamos a requisição para obter os dados
+// Here we make the request to fetch the data
 async function fetchChartData(url) {
     try {
         const response = await fetch(url);
@@ -27,7 +26,7 @@ async function fetchChartData(url) {
 }
 
 
-// Nesta função é criado  grafico de barras
+// In this function, a bar chart is created
 async function createChart(id, type, url) {
 
     const data = await fetchChartData(url)
